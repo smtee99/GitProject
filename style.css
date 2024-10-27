@@ -1,0 +1,47 @@
+.body {
+    background-color: rgb(227, 24, 24);
+}
+
+
+#carouselExample .carousel-item {
+    height: 90vh;
+}
+
+.carousel-caption {
+    background-color: rgba(12, 12, 12, 0.467);
+    margin: 300px 50px;
+}
+
+.navbar {
+    background-color: #00000060;
+
+}
+
+#teams {
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#teams .card {
+    background-color: rgba(12, 12, 12, 0.695);
+}
+
+
+
+@media screen and (max-width: 576px) {
+    #carouselExample .carousel-item {
+        height: 100%;
+    }
+
+    .lastsection {
+        display: none  !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .lastsectionsm {
+        display: none  !important;
+    }
+}
